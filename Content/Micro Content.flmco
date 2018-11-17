@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set.">
+    <MicroContent>
+        <MicroContentPhrase>What is micro content?</MicroContentPhrase>
+        <MicroContentPhrase>Tell me about micro content</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <xhtml:h1>Micro Csdfsdfsdontent</xhtml:h1>
+                    <xhtml:p>
+                        <xhtml:a xhtml:href="#microbookmark">Click me</xhtml:a>
+                    </xhtml:p>
+                    <xhtml:p>
+                        <xhtml:a xhtml:href="long topic.htm#content.">Broken bookmark</xhtml:a> - Mirco content is typically usesssd for short, concise information in question-and-answer situations, such as chat bots. In Flare, micro content <MadCap:xref xhtml:href="Topic.htm">Topic Title</MadCap:xref>can be extracted from existing topics or created from scratch.</xhtml:p>
+                    <xhtml:p>
+                        <xhtml:a xhtml:name="unused">
+                        </xhtml:a>created from scratch.<xhtml:a xhtml:href="long topic.htm#book">Working bookmark</xhtml:a></xhtml:p>
+                    <xhtml:p>
+                        <xhtml:a xhtml:name="microbookmark">
+                        </xhtml:a>bookmark</xhtml:p>
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+</MicroContentSet>
